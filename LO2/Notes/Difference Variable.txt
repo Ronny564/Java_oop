@@ -1,0 +1,10 @@
+Variable
+
+Local Variable
+Local Variable are declared in specific method or block of code. They can only used within the scope in which they are definded. They are not usable in outside of their specific method or scope. It is created when method or block is entered and it will be excutes once it exits the method or block. It is good for using same name of local variable used in different function as it is only recognized by it own function which it is declared
+
+Global Variable
+Global Variable are declared in outside of all the functions or block of code and can be accessed globally in the entire progrm. Global are mostly used in programming and useful for cases where all the function need to access the same data. Global Variable need only a single declaration and very useful if all the functions are using the same data.
+
+
+Instance Variable

@@ -1,0 +1,60 @@
+package gui;
+
+import java.awt.BorderLayout; 
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Point;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class JFrameTest2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame frame = new JFrame();
+		frame.setVisible(true);
+		
+		frame.setSize(new Dimension(500,350)); //size
+		frame.setLocation(new Point(200,100));	// paw lar mk location 
+		frame.setTitle("Window Page"); // title2
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		frame.setLayout(new BorderLayout());
+		
+		JButton btnlogin = new JButton();
+		btnlogin.setText("Login Button");
+		btnlogin.setBackground(Color.blue);
+		
+		frame.add(btnlogin,BorderLayout.EAST);
+		
+		JButton btncancel = new JButton();
+		btncancel.setText("Cancel");
+		btncancel.setBackground(Color.red);
+		frame.add(btncancel,BorderLayout.NORTH);
+		
+		JTextField txtname = new JTextField();
+		txtname.setText("Admin User");
+		txtname.setColumns(10);
+		txtname.setBackground(Color.orange);
+		frame.add(txtname,BorderLayout.WEST);
+		
+		JButton btnok = new JButton();
+		btnok.setText("OK");
+		btnok.setBackground(Color.gray);
+		frame.add(btnok,BorderLayout.SOUTH);
+		
+		JButton btnclick = new JButton();
+		btnclick.setText("Click");
+		btnclick.setBackground(Color.cyan);
+		frame.add(btnclick,BorderLayout.CENTER);
+		
+		
+		frame.setIconImage(new ImageIcon("src/gui/icon.png").getImage()); // icon pay
+
+		
+	}
+
+}

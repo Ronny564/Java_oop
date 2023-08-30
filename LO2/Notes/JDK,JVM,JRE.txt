@@ -1,0 +1,6 @@
+JDK(Java Development Kit) is a software development kit used for developing java application. It includes the Java Runtime Enviroment(JRE) which is a set of tool that include everything for developer to create, compile and run java prgrams. The JDK is developed by Oracle 
+and it is freely available for download and use.
+
+JRE(Java Runtime Enviroment) is a software program that provide the resources which needed to run the java application. The JRE is the technology that translate between the java program and the operating system. The main components of JRE is the Java Virtual Machine(JVM) and Java Class Libraries.It is important to make sure that the version of the JRE is matches to the vesrsion of the Java application being run.
+
+JVM(Java Virtual Machine) is a fundamental component of the JRE and the JDK.It is responsible for converting bytecode into native machine code. When running the java code, java compiler first compiles the java code to bytecode. Then JVM translate byte code to machine-specific code. One of the key feature of the JVM is platform independence. It is because when writing the java code, it is ultimately written for JVM but not for any specific physical machine. Since JVM excutes the java bytecode which is platform independent, Java is platform-independent.

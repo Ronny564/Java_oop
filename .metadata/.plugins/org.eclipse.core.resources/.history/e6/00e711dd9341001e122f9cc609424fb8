@@ -1,0 +1,30 @@
+package abstractOOP;
+
+public class Salary extends Employee{
+		double salary;
+		Salary(String name, String address, int number,double salary) {
+		super(name, address, number);
+		
+	}
+		public void setSalary(double salary)
+		{
+			if(salary >=0.0)
+			{
+				this.salary=salary;
+			}
+		}
+		public double getSalary()
+		{
+			return salary;
+		}
+		
+		@Override
+		public void cumputePay() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		
+		
+
+}

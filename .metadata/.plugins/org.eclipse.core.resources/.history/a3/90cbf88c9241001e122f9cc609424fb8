@@ -1,0 +1,16 @@
+package abstractOOP;
+
+public abstract class Employee {
+	private String name;
+	private int address;
+	public abstract void cumputePay();
+	
+	public void setName(String name)
+	{
+		this.name = name;
+		
+	public String getName()
+	{
+		return name;
+	}
+}

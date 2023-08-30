@@ -1,0 +1,195 @@
+Sayar (Notes)
+boolean (True (1),False (0))
+
+extends,implements,interface,super ko class nk twl tone OOP(Object Oritentant Programming) mhr tone.
+
+import ka module twy chate.
+
+statics is both local and global variables.
+
+void ko method mhr tone. void pr yin return pyn sayar ma lo bu void ma par yin return pyn ko pyn ya mal.
+
+Method 2 khu --> void method, type method(datatype)
+
+expression ka twt cht tr(+ or -)
+
+declare 
+int sum=0;
+(datatype, variable, assign)
+
+Logical Operators ko conditional mhr tone
+
+* / a yin a loke lote
+() htl ka hr ko a yin loke
+= ka assignment operator
+{} ko scope or block lo call
+
+small ka nay large ko pyg lo ya tl datatype ka
+
+switch case mhr condition ka int or char or String pal sit lo ya mha hoke yin synatax error or compile time error
+
+a yay atwt a ti kya so yin (for loop) ko tone
+condition a chy nay paw mu ti pyi tok (while loop) ko tone
+do ka a yin loke pyi mha while nk 
+
+For loop
+for(initializing,condition,increment or decrement2){
+}
+
+program excution ko
+
+
+
+Tr. PTK (Notes)
+== (case sensitive)
+.equal (case sensitive)
+.equalsIngoreCase(case sensitive ma pyit bu)
+String ka obj
+obj ko nhine shin yin .equal
+String ko equal sit yin .equal
+
+Integer.parseInt(value)(String ka Integer pyung)
+String.valueOf() (numeric ka nay String pyung)
+Double.parseDouble(value)
+Looping mhr a pyin loop ka row 
+	    a twin loop ka column	
+
+Two dimension Array
+int A[][] = new int [][] 
+		     ^ ^
+		   row column
+int[][]A = {{10,20,30},		//0 row
+	    {40,50,60}          // 1 row
+	   };
+
+
+Method htl ka method ko htut khr" tone tr ko Recursive
+
+Recursive ---> direct recursive, indirect recursive
+
+Direct Recursice
+public static void main(){
+main();
+}
+==================================================
+Indirect Recursive
+public staitic void main(){
+	sum();
+}
+public static void sum(){
+	display();
+}
+public static void display(){
+	main();	
+}	
+==================================================
+Terminate point(or)base case(Indirect Recursive ko stop phoe)
+
+public static void main(){
+	
+}
+
+
+
+Method Overloading (Same method name,but different data type and parameter)
+
+public static void Sum(int a,int b)
+S.O.P (a+b);
+
+public static void Sum(float a, float b){
+S.O.P (a+b+c)
+}
+public static int Sum(int a,int b,int c ){
+retrun  a+b+c;
+}
+
+public static void main(String[] args)
+{
+Sum(2,3);
+Sum (1.2,1.5);
+Sum(2,3,4);
+}
+
+
+
+
+
+
+
+
+
+
+Object Oriented Programming(OOP)
+OOP = Object ko a chy khn pyi sin sar tk a yr
+
+Class
+Object
+Inheritance
+Interface
+
+Class is a instance of an object
+
+Super Class ka parents yk out ka child mhr tone(Only one Parents)
+Interface so yin Inplements.
+extend(1 chr class 1 khu ko extend loke yin parents nk child shi lar tl ak dr ko inheritance)
+implement (Interface a myr kyi insert loke nhine)
+static tone tk class twy ka class variable
+object 1 khu sout yin class lo tl new keyword lo tl
+
+
+OOP Concert
+1. Encapsulation
+2. Inheritance
+3. Polymorphism
+4. Abstraction
+
+
+
+Encapsulation(getter, setter)
+data ko po pyi security kg ag loke htr
+variable nk class twy ko private loke htr
+
+Get Method ka read only(Data twy ko htote kyi yone pal) 
+Set Method ka read and write (Data twy ko pyin lo ya )
+
+
+Inheritance(keyword extand)
+
+Super class (Parents Class)
+Sub class (Child Class)
+
+4 types of Inheritance
+
+
+Single Inheritance
+1 Child ka 1 Parent ko extend loke tr 
+
+Multi Level Inheritance
+Class B ka Class A ko extend loke tl 
+Class C ak Class A ko B kw extend loke lo ya
+
+Hierarchical Inheritance
+Multiple Child ka Single Parents ko extend
+
+Multiple Inheritacne
+Multiple Prarents ko Single child ka extend
+
+protected ka Inheritance
+Private ka Only class Inheritance nk tone chin yin getter, setter nk tone
+
+
+abstract keyword nk absract class sout 
+abstract class ko a tone pyu yin obj souk lo ma ya bu
+abstract method twy ka method body ma pr bu
+
+
+Interface so Implements,Abstract so yin abstract
+Interface ko tone chin yin implement loke ya
+Interface ka References type
+Interface does not have constractors
+Interface a chin" extends loke lo ya
+Interface htl mhr shi tk method twy ka abstract method twy
+
+
+
+

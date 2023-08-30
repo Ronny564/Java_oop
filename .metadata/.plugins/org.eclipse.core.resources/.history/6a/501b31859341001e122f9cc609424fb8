@@ -1,0 +1,9 @@
+package abstractOOP;
+
+public class Salary extends Employee {
+
+
+		double salary;
+	
+
+}

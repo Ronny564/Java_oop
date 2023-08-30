@@ -1,0 +1,10 @@
+Quick Sort
+Merge Sort
+Bubble Sort
+Selection Sort
+Insertion Sort
+
+Bubble Sort
+slow but simples
+2khu shin pyi nayar change
+

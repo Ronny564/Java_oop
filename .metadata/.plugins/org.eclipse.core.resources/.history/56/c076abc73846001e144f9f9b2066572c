@@ -1,0 +1,31 @@
+package gui;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.GridLayout;
+import java.awt.Point;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class JframeTest3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame frame = new JFrame();
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(new Dimension(500,300));
+		frame.setLocation(new Point(200,100));
+		frame.setTitle("Grid Layout");
+		frame.setIconImage(new ImageIcon("src/gut/icon.png").getImage());
+		
+		frame.setLayout(new GridLayout());
+		
+		JButton btnLogin = new JButton();
+		btnLogin.setText("Login");
+		btnLogin.setBackground(Color.lightGray)
+	}
+
+}

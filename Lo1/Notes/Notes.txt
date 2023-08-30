@@ -1,0 +1,13 @@
+Application memory --> global variable,stack memory, heap memory
+
+variable --> value type, reference type
+
+stack memory --> local variable, function call
+
+heap memory --> object (dynamically)
+
+variable --> value type(value thein),reference type(address ko thein)
+
+[]==> subscript operator
+
+

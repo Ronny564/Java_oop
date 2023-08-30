@@ -1,0 +1,35 @@
+package abstractOOP;
+
+public class Main {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Salary sa = new Salary("Mg Mg", "Lan Gyo Lan Gyr", 3, 10000);
+		Employee em=new Salary("Ma Ma", "Hladen",5,20000);
+		System.out.println(sa.cumputePay());
+		System.out.println(em.cumputePay());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

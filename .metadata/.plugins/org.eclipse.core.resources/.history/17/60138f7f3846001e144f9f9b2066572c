@@ -1,0 +1,13 @@
+package gui;
+
+import javax.swing.JFrame;
+
+public class JframeTest3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame frame = new JFrame();
+		frame.setVisible(true);
+	}
+
+}
